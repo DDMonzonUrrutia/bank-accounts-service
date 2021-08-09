@@ -1,4 +1,4 @@
-package com.everis.bankaccounts;
+package com.everis.bankproduct;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.CommandLineRunner;
@@ -7,10 +7,10 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 //import org.springframework.cloud.netflix.eureka.EnableEurekaClient;
 import org.springframework.data.mongodb.core.ReactiveMongoTemplate;
 
-import com.everis.bankaccounts.domain.ProductBank;
-import com.everis.bankaccounts.domain.TypeProductBank;
-import com.everis.bankaccounts.repository.ProductBankRepository;
-import com.everis.bankaccounts.repository.TypeProductRepository;
+import com.everis.bankproduct.domain.ProductBank;
+import com.everis.bankproduct.domain.TypeProductBank;
+import com.everis.bankproduct.repository.ProductBankRepository;
+import com.everis.bankproduct.repository.TypeProductRepository;
 
 import reactor.core.publisher.Flux;
 

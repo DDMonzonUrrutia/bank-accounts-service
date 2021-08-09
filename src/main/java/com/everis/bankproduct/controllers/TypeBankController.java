@@ -1,4 +1,4 @@
-package com.everis.bankaccounts.controllers;
+package com.everis.bankproduct.controllers;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.DeleteMapping;
@@ -10,8 +10,8 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.everis.bankaccounts.domain.TypeProductBank;
-import com.everis.bankaccounts.service.TypeProductService;
+import com.everis.bankproduct.domain.TypeProductBank;
+import com.everis.bankproduct.service.TypeProductService;
 
 import reactor.core.publisher.Flux;
 import reactor.core.publisher.Mono;

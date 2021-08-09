@@ -1,4 +1,4 @@
-package com.everis.bankaccounts.domain;
+package com.everis.bankproduct.domain;
 
 import org.springframework.data.annotation.Id;
 import org.springframework.data.mongodb.core.mapping.Document;

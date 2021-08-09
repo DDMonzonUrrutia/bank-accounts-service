@@ -1,4 +1,4 @@
-package com.everis.bankaccounts.exception;
+package com.everis.bankproduct.exception;
 
 
 

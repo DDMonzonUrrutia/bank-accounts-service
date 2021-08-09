@@ -1,8 +1,8 @@
-package com.everis.bankaccounts.service;
+package com.everis.bankproduct.service;
 
 import org.springframework.data.mongodb.repository.ReactiveMongoRepository;
 
-import com.everis.bankaccounts.domain.TypeProductBank;
+import com.everis.bankproduct.domain.TypeProductBank;
 
 import reactor.core.publisher.Flux;
 import reactor.core.publisher.Mono;

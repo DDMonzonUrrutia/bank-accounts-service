@@ -1,13 +1,13 @@
-package com.everis.bankaccounts.service.impl;
+package com.everis.bankproduct.service.impl;
 
 import org.springframework.beans.factory.annotation.Autowired;
 
 
 import org.springframework.stereotype.Service;
 
-import com.everis.bankaccounts.domain.ProductBank;
-import com.everis.bankaccounts.repository.ProductBankRepository;
-import com.everis.bankaccounts.service.ProductBankService;
+import com.everis.bankproduct.domain.ProductBank;
+import com.everis.bankproduct.repository.ProductBankRepository;
+import com.everis.bankproduct.service.ProductBankService;
 
 import reactor.core.publisher.Flux;
 import reactor.core.publisher.Mono;

@@ -1,6 +1,6 @@
-package com.everis.bankaccounts.service;
+package com.everis.bankproduct.service;
 
-import com.everis.bankaccounts.domain.ProductBank;
+import com.everis.bankproduct.domain.ProductBank;
 
 import reactor.core.publisher.Flux;
 import reactor.core.publisher.Mono;
